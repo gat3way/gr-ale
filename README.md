@@ -39,6 +39,9 @@ $ sudo make install
 </pre>
 
 
+There is a nice python multi-channel ALE decoder under examples/ directory. On my machine (six-core AMD bulldozer) it can decode ~22 channels before librtlsdr starts complaining about overruns.
+
+
 Credits and License
 -------------------
 
