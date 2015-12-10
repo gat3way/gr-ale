@@ -1,0 +1,33 @@
+<block>
+  <name>Decode ff</name>
+  <key>ale_decode_ff</key>
+  <category>ALE</category>
+  <import>import ale</import>
+  <make>ale.decode_ff($freq,$wdir,$wsec)</make>
+  <param>
+      <name>Frequency</name>
+      <key>freq</key>
+      <value>0</value>
+      <type>int</type>
+  </param>
+  <param>
+      <name>Wav Dir</name>
+      <key>wdir</key>
+      <value></value>
+      <type>string</type>
+  </param>
+  <param>
+      <name>Wav Secs</name>
+      <key>wsec</key>
+      <value>0</value>
+      <type>int</type>
+  </param>
+
+
+
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+</block>
