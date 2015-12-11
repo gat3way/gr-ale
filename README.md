@@ -1,7 +1,7 @@
 gr-ale
 ====
 
-gr-ale is MIL-STD-188-141b (ALE 2G) decoding block for gnuradio
+gr-ale is MIL-STD-188-141a (ALE 2G) decoding block for gnuradio
 
 
 Usage
