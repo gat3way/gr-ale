@@ -23,7 +23,6 @@
 #endif
 
 #include "math.h"
-#include "golay.h"
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
